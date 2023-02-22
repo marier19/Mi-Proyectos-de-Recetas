@@ -9,29 +9,24 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-
     <title>Inicio</title>
 </head>
 
 <body>
 
     <header>
+
         <section>
-
-            <div class="logosrc">
-
-                <img style="width:200px; height:120px;" src="./multimedia/Logo/panaderia.png"/>
-            </div>
 
             <nav class="contenedorNavbar">
 
                 <div>
                     <ul>
 
-                        <li><a style="color: black" href="https://www.facebook.com/BuenosAiresBakery" target="_blank"><i
-                                    class="fa-brands fa-facebook"></i></a>
+                        <li> <a style="color: black" href="https://www.facebook.com/BuenosAiresBakery"
+                                target="_blank"><i class="fa-brands fa-facebook"></i></a>
 
-                        <li><a style="color: black" href="https://www.instagram.com/ba.bakeryoficial/"
+                        <li> <a style="color: black" href="https://www.instagram.com/ba.bakeryoficial/"
                                 target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 
                         <li><a style="color: black" href="https://wa.me/c/5491137644052" target="_blank"><i
@@ -39,19 +34,25 @@
 
                         <li><a style="color: black" href="http://127.0.0.1:5500/pages/Recetas.html" target="_blank"><i
                                     class="fa-solid fa-magnifying-glass"></i></a></li>
+
                     </ul>
+
+                </div>
+
+                <div class="logosrc">
+
+                    <img src="../multimedia/Logo/panaderia.png" />
                 </div>
 
                 <div>
                     <ul>
-
                         <li>Inicio</li>
-                        <li><a style="color:black;" href="../pages/nosotros.html">Nosotros</a></li>
+                        <li><a style="color:black;" href="/pages/nosotros.html">Nosotros</a></li>
+
                         <li><a style="color:black;" href="/pages/recetas.html">Recetas</a></li>
                         <li><a style="color:black;" href="/pages/contactame.html">Contactame</a></li>
                     </ul>
                 </div>
-
             </nav>
 
         </section>
@@ -73,8 +74,29 @@
     <div class="derech">
         <p>Copyright &copy; 2022-2023, todos los derechos reservados.</p>
     </div>
-
-
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBGpJykk8lisPU-L77mPepbUjRnDLGD0qI",
+          authDomain: "proyecto-de-recetas-3bc12.firebaseapp.com",
+          projectId: "proyecto-de-recetas-3bc12",
+          storageBucket: "proyecto-de-recetas-3bc12.appspot.com",
+          messagingSenderId: "469048125028",
+          appId: "1:469048125028:web:e3aa5406495e940f6f6171",
+          measurementId: "G-F5JEMWYD70"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 
 </html>

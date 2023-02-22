@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(https://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg);
+    background-size: 100vw;
+    background-attachment:fixed;
+    background-size:cover;}
+
+.contenedorNavbar {
+    height: 90px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 110%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    list-style-type: none;
+    font-weight: lighter;
+    font-size: 22px;
+    color: rgb(5, 6, 6);
+    border: 1px black solid;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+
+.logosrc {
+    display: flex;
+    width: 160px;
+    height: 110px;
+}
+
+.titulo {
+    padding: 0px;
+    margin: 0px;
+}
+
+.entit {
+    height: 130px;
+    text-align:center;
+}
+
+.contenosotros {
+    display: flex;
+    flex-direction: column;
+}
+
+.infonosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.contentext {
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+}
+
+.contentext h3 {
+    text-align: center;
+}
+
+.multimg_img {
+    width: 50%;
+    height: 460px;
+    box-shadow: 30px 30px 50px rgb(16, 15, 15);
+
+}
+
+
+
+footer {
+    left: 90px;
+    position: relative;
+    
+
+
+}

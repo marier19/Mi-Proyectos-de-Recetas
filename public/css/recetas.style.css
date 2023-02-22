@@ -2,12 +2,13 @@
      padding: 0px;
      margin: 0px;
  }
-body {
-background-image: url(https://img.freepik.com/fotos-premium/fondo-madera-colores-pastel-textura-madera-clara-tableros-mesa-palidos-patron-natural_84485-2179.jpg?w=996);
-background-size: 100vw;
-background-position: center;
-background-attachment: fixed;
-}
+
+ body {
+     background-image: url(https://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg);
+     background-size: 100vw;
+     background-attachment: fixed;
+     background-size: cover
+ }
 
  .contenedorNavbar {
      width: 100%;
@@ -15,7 +16,7 @@ background-attachment: fixed;
      text-decoration: none;
      display: flex;
      flex-direction: row-reverse;
-     justify-content:space-around;
+     justify-content: space-around;
      align-items: center;
      padding-left: 2%;
      padding-right: 2%;
@@ -50,10 +51,7 @@ background-attachment: fixed;
      margin-bottom: 3px;
      background-color: rgba(240, 255, 240, 0);
      text-align: center;
-
  }
-
-
 
  div>ul {
 
@@ -73,11 +71,12 @@ background-attachment: fixed;
  }
 
  .logosrc {
-    right: 78em;
-    position: absolute;
-    bottom: 556px;   
-}
-}
+     display: flex;
+     width: 160px;
+     height: 110px;
+ }
+
+
 
  .imaginsrcs {
      width: 89vh;
@@ -91,11 +90,11 @@ background-attachment: fixed;
 
  section {
      width: 100%;
-     display:flex;
+     display: flex;
      flex-direction: row;
      justify-content: space-evenly;
      align-items: center;
-     flex-wrap:wrap;
+     flex-wrap: wrap;
 
  }
 
@@ -103,7 +102,7 @@ background-attachment: fixed;
      position: relative;
      width: 480px;
      height: 800px;
-     border: 3px solid  rgb(202, 169, 109);
+     border: 3px solid rgb(202, 169, 109);
      border-radius: 30px;
      display: flex;
      flex-direction: column;
@@ -113,7 +112,7 @@ background-attachment: fixed;
      box-shadow: 5px 5px 10px black;
      margin-bottom: 50px;
      background-color: white;
-     
+
 
 
  }
@@ -180,12 +179,14 @@ background-attachment: fixed;
      display: flex;
      flex-direction: column;
      justify-content: end;
-     align-items: center;
      position: relative;
 
  }
 
-
+ .titulo {
+     padding: 10px;
+     margin: 10px;
+ }
 
  .card-content>ul {
      padding-top: 40px;
@@ -193,5 +194,6 @@ background-attachment: fixed;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     width: 95% ;
-     height: 90%;}
+     width: 95%;
+     height: 90%;
+ }
